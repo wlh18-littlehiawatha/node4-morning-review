@@ -2,7 +2,8 @@
   "name": "auth_morning_review",
   "version": "0.1.0",
   "private": true,
-  "proxy": "http://localhost:3999",
+  "proxy": "http://localhost:4545",
+  "main": "server/index.js",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
@@ -13,7 +14,7 @@
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "express-session": "^1.17.0",
-    "massive": "^6.2.0",
+    "massive": "^6.3.0",
     "react": "^16.13.0",
     "react-dom": "^16.13.0",
     "react-router-dom": "^5.1.2",
